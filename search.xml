@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>你好，我的博客世界!!!</title>
+    <url>/2022/05/29/My_HexoBlog_with_Next(2)/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>我的博客诞生</category>
+      </categories>
+      <tags>
+        <tag>世界</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言中结构体struct的用法</title>
+    <url>/2022/05/30/My_HexoBlog_with_Next(2)/</url>
+    <content><![CDATA[<h2 id="定义结构体变量">定义结构体变量</h2>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">string</span> </span></span><br><span class="line"><span class="class">&#123;</span> </span><br><span class="line">   <span class="type">char</span> name[<span class="number">8</span>]; </span><br><span class="line">   <span class="type">int</span> age; </span><br><span class="line">   <span class="type">char</span> sex[<span class="number">2</span>]; </span><br><span class="line">   <span class="type">char</span> depart[<span class="number">20</span>]; </span><br><span class="line">   <span class="type">float</span> wage1, wage2, wage3, wage4, wage5; </span><br><span class="line">&#125;person;</span><br></pre></td></tr></table></figure>
+<p>这个例子定义了一个结构名为string的结构体变量person。还可以省略变量名person，做如下定义：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">string</span> </span></span><br><span class="line"><span class="class"> &#123;</span> </span><br><span class="line">    <span class="type">char</span> name[<span class="number">8</span>]; </span><br><span class="line">    <span class="type">int</span> age; </span><br><span class="line">    <span class="type">char</span> sex[<span class="number">2</span>]; </span><br><span class="line">    <span class="type">char</span> depart[<span class="number">20</span>]; </span><br><span class="line">    <span class="type">float</span> wage1, wage2, wage3, wage4, wage5; </span><br><span class="line"> &#125;;  </span><br><span class="line"> <span class="class"><span class="keyword">struct</span> <span class="title">string</span> <span class="title">person</span>;</span>   <span class="comment">//定义结构名为string的结构体变量person</span></span><br></pre></td></tr></table></figure>
+<p>定义多个具有相同形式的结构变量：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">string</span> <span class="title">Liming</span>, <span class="title">Liuqi</span>, ...;</span></span><br></pre></td></tr></table></figure>
+<p>有一种结构体常常出现在函数内部，省略结构名，则称之为无名结构，如下：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> </span></span><br><span class="line"><span class="class">&#123;</span> </span><br><span class="line">   <span class="type">char</span> name[<span class="number">8</span>]; </span><br><span class="line">   <span class="type">int</span> age; </span><br><span class="line">   <span class="type">char</span> sex[<span class="number">2</span>]; </span><br><span class="line">   <span class="type">char</span> depart[<span class="number">20</span>]; </span><br><span class="line">   <span class="type">float</span> wage1, wage2, wage3, wage4, wage5; </span><br><span class="line">&#125; Liming, Liuqi;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>C语言基础知识</category>
+      </categories>
+      <tags>
+        <tag>结构体</tag>
+      </tags>
+  </entry>
+</search>
