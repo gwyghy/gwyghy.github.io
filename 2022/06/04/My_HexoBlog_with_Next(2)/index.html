@@ -23,18 +23,20 @@
     var CONFIG = {"hostname":"blog.xxx.xx","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="浮生若梦，若梦非梦，浮生何如？如梦之梦。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="gwyghy&#39;s blog">
-<meta property="og:url" content="http://blog.xxx.xx/tags/%E6%8C%87%E9%92%88/index.html">
+  <meta name="description" content="密码">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C语言指针用法">
+<meta property="og:url" content="http://blog.xxx.xx/2022/06/04/My_HexoBlog_with_Next(2)/index.html">
 <meta property="og:site_name" content="gwyghy&#39;s blog">
-<meta property="og:description" content="浮生若梦，若梦非梦，浮生何如？如梦之梦。">
+<meta property="og:description" content="密码">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-06-03T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-06-04T10:21:47.189Z">
 <meta property="article:author" content="gwyghy">
-<meta property="article:tag" content="学习与生活">
+<meta property="article:tag" content="生活">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://blog.xxx.xx/tags/%E6%8C%87%E9%92%88/">
+<link rel="canonical" href="http://blog.xxx.xx/2022/06/04/My_HexoBlog_with_Next(2)/">
 
 
 <script id="page-configurations">
@@ -42,12 +44,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>标签: 指针 | gwyghy's blog</title>
+  <title>C语言指针用法 | gwyghy's blog</title>
   
 
 
@@ -187,57 +189,142 @@
         <div class="content-wrap">
           
 
-          <div class="content tag">
+          <div class="content post posts-expand">
             
 
+    
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.xxx.xx/2022/06/04/My_HexoBlog_with_Next(2)/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/hexoblog.gif">
+      <meta itemprop="name" content="gwyghy">
+      <meta itemprop="description" content="浮生若梦，若梦非梦，浮生何如？如梦之梦。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gwyghy's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          C语言指针用法<a href="https://github.dev/gwyghy/#_posts/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2.md" class="post-edit-link" title="编辑" rel="noopener" target="_blank"><i class="fa fa-pencil-alt"></i></a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-06-04 00:00:00 / 修改时间：18:21:47" itemprop="dateCreated datePublished" datetime="2022-06-04T00:00:00+08:00">2022-06-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%94%9F%E6%B4%BB%E4%B8%AD%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7%E7%A7%AF%E7%B4%AF/" itemprop="url" rel="index"><span itemprop="name">生活中软件技巧积累</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">指针
-          <small>标签</small>
-        </h2>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2022/06/04/My_HexoBlog_with_Next(2)/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/06/04/My_HexoBlog_with_Next(2)/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>18</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-06-01T00:00:00+08:00"
-              content="2022-06-01">
-          06-01
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/06/01/My_HexoBlog_with_Next(2)/" itemprop="url">
-            <span itemprop="name">C语言指针用法</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+        <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="ff9d0e3615d291c3df745ec0db03ff483826bd02135e3db9083b2e9e34903c89">268e3d99bacc59ca426f7be859149b4f4d86433f22d9a7901dd3d1beaaf6fdac9e821a7333df5b9ebc3adb5d9c19477a223974a8ff00f488276c952cd3c1e4a3dd6f5bc0e215fecc5eaff756041d9861f3d035540380a3d0d0fd9b4f409b4d94b5276c74fe51ae4c71db2baa34aa143b77e59610db051e6bd9caa1a5392098da2cc63b9009a4bf2df8f142dc995f0201977494572974446fb4e6af912fbebf1d</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">想知道密码吗，过来问我，我告诉你哦！！！</span>
+      </label>
     </div>
   </div>
-  
-  
-  
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+    </div>
 
+    
+    
+    
+
+      <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/%E7%94%9F%E6%B4%BB/" rel="tag"><i class="fa fa-tag"></i> 生活</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2022/05/30/My_HexoBlog_with_Next(2)/" rel="next" title="C语言中结构体struct的用法">
+      C语言中结构体struct的用法 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -306,7 +393,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
