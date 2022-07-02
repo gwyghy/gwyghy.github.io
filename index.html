@@ -14,7 +14,7 @@
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto Serif SC:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
   <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
   <script src="/lib/pace/pace.min.js"></script>
 
@@ -193,7 +193,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://blog.xxx.xx/2022/06/04/My_HexoBlog_with_Next(2)/">
+    <link itemprop="mainEntityOfPage" href="http://blog.xxx.xx/2022/06/17/The%20use%20of%20pointers%20in%20C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/hexoblog.gif">
@@ -207,7 +207,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2022/06/04/My_HexoBlog_with_Next(2)/" class="post-title-link" itemprop="url">C语言指针用法</a>
+            <a href="/2022/06/17/The%20use%20of%20pointers%20in%20C/" class="post-title-link" itemprop="url">C语言中指针的用法</a>
         </h2>
 
         <div class="post-meta">
@@ -216,9 +216,8 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2022-06-04 00:00:00 / 修改时间：18:21:47" itemprop="dateCreated datePublished" datetime="2022-06-04T00:00:00+08:00">2022-06-04</time>
+              <time title="创建时间：2022-06-17 00:00:00" itemprop="dateCreated datePublished" datetime="2022-06-17T00:00:00+08:00">2022-06-17</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -226,7 +225,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%94%9F%E6%B4%BB%E4%B8%AD%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7%E7%A7%AF%E7%B4%AF/" itemprop="url" rel="index"><span itemprop="name">生活中软件技巧积累</span></a>
+                  <a href="/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" itemprop="url" rel="index"><span itemprop="name">C语言基础知识</span></a>
                 </span>
             </span>
 
@@ -239,8 +238,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2022/06/04/My_HexoBlog_with_Next(2)/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2022/06/04/My_HexoBlog_with_Next(2)/" itemprop="commentCount"></span>
+    <a title="valine" href="/2022/06/17/The%20use%20of%20pointers%20in%20C/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/06/17/The%20use%20of%20pointers%20in%20C/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -250,14 +249,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>18</span>
+              <span>6.1k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
+              <span>6 分钟</span>
             </span>
 
         </div>
@@ -269,10 +268,10 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          密码
+          查看本文需要输入密码
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2022/06/04/My_HexoBlog_with_Next(2)/#more" rel="contents">
+              <a class="btn" href="/2022/06/17/The%20use%20of%20pointers%20in%20C/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -296,7 +295,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://blog.xxx.xx/2022/05/30/My_HexoBlog_with_Next(2)/">
+    <link itemprop="mainEntityOfPage" href="http://blog.xxx.xx/2022/06/17/Pointer%20usage%20two%20in%20C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/hexoblog.gif">
@@ -310,7 +309,218 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2022/05/30/My_HexoBlog_with_Next(2)/" class="post-title-link" itemprop="url">C语言中结构体struct的用法</a>
+            <a href="/2022/06/17/Pointer%20usage%20two%20in%20C/" class="post-title-link" itemprop="url">C语言中指针用法二</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-06-17 00:00:00" itemprop="dateCreated datePublished" datetime="2022-06-17T00:00:00+08:00">2022-06-17</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" itemprop="url" rel="index"><span itemprop="name">C语言基础知识</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2022/06/17/Pointer%20usage%20two%20in%20C/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/06/17/Pointer%20usage%20two%20in%20C/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>13k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>11 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          查看本文需要输入密码
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/06/17/Pointer%20usage%20two%20in%20C/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.xxx.xx/2022/06/04/WiFi%20network%20router%20related%20configuration/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/hexoblog.gif">
+      <meta itemprop="name" content="gwyghy">
+      <meta itemprop="description" content="浮生若梦，若梦非梦，浮生何如？如梦之梦。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gwyghy's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/06/04/WiFi%20network%20router%20related%20configuration/" class="post-title-link" itemprop="url">WiFi网络路由器相关配置</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-06-04 00:00:00" itemprop="dateCreated datePublished" datetime="2022-06-04T00:00:00+08:00">2022-06-04</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-07-02 10:10:14" itemprop="dateModified" datetime="2022-07-02T10:10:14+08:00">2022-07-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%94%9F%E6%B4%BB%E4%B8%AD%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7%E7%A7%AF%E7%B4%AF/" itemprop="url" rel="index"><span itemprop="name">生活中软件技巧积累</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2022/06/04/WiFi%20network%20router%20related%20configuration/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/06/04/WiFi%20network%20router%20related%20configuration/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>167</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          查看本文需要输入密码
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/06/04/WiFi%20network%20router%20related%20configuration/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.xxx.xx/2022/05/30/The%20use%20of%20structs%20in%20the%20C%20language/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/hexoblog.gif">
+      <meta itemprop="name" content="gwyghy">
+      <meta itemprop="description" content="浮生若梦，若梦非梦，浮生何如？如梦之梦。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gwyghy's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/05/30/The%20use%20of%20structs%20in%20the%20C%20language/" class="post-title-link" itemprop="url">C语言中结构体struct的用法</a>
         </h2>
 
         <div class="post-meta">
@@ -327,7 +537,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-05-31 00:00:00" itemprop="dateModified" datetime="2022-05-31T00:00:00+08:00">2022-05-31</time>
+                <time title="修改时间：2022-06-16 00:00:00" itemprop="dateModified" datetime="2022-06-16T00:00:00+08:00">2022-06-16</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -348,8 +558,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2022/05/30/My_HexoBlog_with_Next(2)/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2022/05/30/My_HexoBlog_with_Next(2)/" itemprop="commentCount"></span>
+    <a title="valine" href="/2022/05/30/The%20use%20of%20structs%20in%20the%20C%20language/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/05/30/The%20use%20of%20structs%20in%20the%20C%20language/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -359,14 +569,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>2.3k</span>
+              <span>4.8k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
+              <span>4 分钟</span>
             </span>
 
         </div>
@@ -378,50 +588,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="定义结构体变量">定义结构体变量</h2>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">string</span> </span></span><br><span class="line"><span class="class">&#123;</span> </span><br><span class="line">   <span class="type">char</span> name[<span class="number">8</span>]; </span><br><span class="line">   <span class="type">int</span> age; </span><br><span class="line">   <span class="type">char</span> sex[<span class="number">2</span>]; </span><br><span class="line">   <span class="type">char</span> depart[<span class="number">20</span>]; </span><br><span class="line">   <span class="type">float</span> wage1, wage2, wage3, wage4, wage5; </span><br><span class="line">&#125;person;</span><br></pre></td></tr></table></figure>
-<p>这个例子定义了一个结构名为string的结构体变量person。还可以省略变量名person，做如下定义：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">string</span> </span></span><br><span class="line"><span class="class"> &#123;</span> </span><br><span class="line">    <span class="type">char</span> name[<span class="number">8</span>]; </span><br><span class="line">    <span class="type">int</span> age; </span><br><span class="line">    <span class="type">char</span> sex[<span class="number">2</span>]; </span><br><span class="line">    <span class="type">char</span> depart[<span class="number">20</span>]; </span><br><span class="line">    <span class="type">float</span> wage1, wage2, wage3, wage4, wage5; </span><br><span class="line"> &#125;;  </span><br><span class="line"> <span class="class"><span class="keyword">struct</span> <span class="title">string</span> <span class="title">person</span>;</span>   <span class="comment">//定义结构名为string的结构体变量person</span></span><br></pre></td></tr></table></figure>
-<p>定义多个具有相同形式的结构变量：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">string</span> <span class="title">Liming</span>, <span class="title">Liuqi</span>, ...;</span></span><br></pre></td></tr></table></figure>
-<p>有一种结构体常常出现在函数内部，省略结构名，则称之为无名结构，如下：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> </span></span><br><span class="line"><span class="class">&#123;</span> </span><br><span class="line">   <span class="type">char</span> name[<span class="number">8</span>]; </span><br><span class="line">   <span class="type">int</span> age; </span><br><span class="line">   <span class="type">char</span> sex[<span class="number">2</span>]; </span><br><span class="line">   <span class="type">char</span> depart[<span class="number">20</span>]; </span><br><span class="line">   <span class="type">float</span> wage1, wage2, wage3, wage4, wage5; </span><br><span class="line">&#125; Liming, Liuqi;</span><br></pre></td></tr></table></figure>
-<h2 id="结构体成员的获取与赋值">结构体成员的获取与赋值</h2>
-<p>结构是一个新的数据类型，结构成员的表示方式为:</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">结构变量.成员名</span><br></pre></td></tr></table></figure>
-<p>如果将&quot;结构变量.成员名&quot;看成一个整体，这样就可以像其他变量那样使用。</p>
-<p>下面这个例子定义了一个结构变量stu1，分别给name,age,group赋值，并打印输出。</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">    &#123;</span></span><br><span class="line">        <span class="type">char</span> *name;  <span class="comment">//姓名</span></span><br><span class="line">        <span class="type">int</span> age;  <span class="comment">//年龄</span></span><br><span class="line">        <span class="type">char</span> group;  <span class="comment">//所在小组</span></span><br><span class="line">    &#125; stu1;</span><br><span class="line">    <span class="comment">//给结构体成员赋值</span></span><br><span class="line">    stu1.name = <span class="string">&quot;Tom&quot;</span>;</span><br><span class="line">    stu1.age = <span class="number">18</span>;</span><br><span class="line">    stu1.group = <span class="string">&#x27;A&#x27;</span>;</span><br><span class="line">    <span class="comment">//读取结构体成员的值</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%s的年龄是%d，在%c组\n&quot;</span>, stu1.name, stu1.age, stu1.group);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="结构体数组">结构体数组</h2>
-<p>结构体数组就是具有相同结构类型的变量集合，假如要定义一个班级40个同学 的姓名、性别、年龄和住址, 可以定义成一个结构数组。如下所示：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="type">char</span> name[<span class="number">8</span>]; </span><br><span class="line">    <span class="type">char</span> sex[<span class="number">2</span>]; </span><br><span class="line">    <span class="type">int</span> age; </span><br><span class="line">    <span class="type">char</span> addr[<span class="number">40</span>]; </span><br><span class="line">&#125;student[<span class="number">40</span>];</span><br></pre></td></tr></table></figure>
-<p>结构体数组成员的访问是以数组元素为结构变量的, 其形式为:</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">结构数组元素.成员名</span><br></pre></td></tr></table></figure>
-<p>例如：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">student[<span class="number">0</span>].name</span><br><span class="line">student[<span class="number">30</span>].age</span><br></pre></td></tr></table></figure>
-<h2 id="结构体指针">结构体指针</h2>
-<p>结构体指针由一个加在结构变量名前的*操作符来定义，定义一个结构体指针如下：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">string</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">   <span class="type">char</span> name[<span class="number">8</span>] </span><br><span class="line">   <span class="type">char</span> sex[<span class="number">2</span>]; </span><br><span class="line">   <span class="type">int</span> age; </span><br><span class="line">   <span class="type">char</span> addr[<span class="number">40</span>]; </span><br><span class="line">&#125;*student;</span><br></pre></td></tr></table></figure>
-<p>使用结构体指针对结构体成员的访问与结构体变量对结构体成员的访问在表达方式不同。结构体指针对结构体成员的访问方式为：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">结构体指针名-&gt;结构体成员 </span><br></pre></td></tr></table></figure>
-<p>给上面定义的结构体中name和age赋值的语句：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">strcpy</span>(student-&gt;name, <span class="string">&quot;acket&quot;</span>); <span class="comment">//student-&gt;name就是(*student).name</span></span><br><span class="line">student-&gt;age=<span class="number">18</span>; </span><br></pre></td></tr></table></figure>
-<p>需要指出的是结构体指针是指向结构体的一个指针，即结构体中第一个成员的首地址，因此在使用之前应该对结构体指针初始化，即分配整个结构体长度的字节空间：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">student=(<span class="keyword">struct</span> <span class="built_in">string</span>*)<span class="built_in">malloc</span>(size of (<span class="keyword">struct</span> <span class="built_in">string</span>));</span><br><span class="line"><span class="comment">//size of (struct string)是自动求取string结构体的字节长度</span></span><br></pre></td></tr></table></figure>
-<p>malloc()函数定义了一个大小为结构体长度的内存区域，然后将其地址作为结构体指针返回，相关文章:<a target="_blank" rel="noopener" href="http://mp.weixin.qq.com/s?__biz=MzI1MDg4OTMwMw==&amp;mid=2247484098&amp;idx=2&amp;sn=53a5d30075027b190205da6a83fef682&amp;chksm=e9fa17fade8d9eec6461cd135f1d559912daa6819084b9a88ffca258868f80be99bf5d3d1f2f&amp;scene=21#wechat_redirect">C语言中的内存管理</a>。</p>
-<h2 id="位结构">位结构</h2>
-<p>位结构是一种特殊的结构体，位结构定义的一般形式为：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span>  位结构名</span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    数据类型 变量名: 整型常数; </span><br><span class="line">     数据类型 变量名: 整型常数; </span><br><span class="line">&#125;位结构变量;</span><br></pre></td></tr></table></figure>
-<p>其中数据类型必须是int（unsigned或signed，但当成员长度为1时, 会被认为是unsigned类型），整型常数必须是0~15的非负整数，表示二进制位个数。变量名是选择项，可以不命名，下面定义了一个位结构：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="type">unsigned</span> incon: <span class="number">8</span>;    <span class="comment">/*incon占用低字节 的0~7共8位*/</span> </span><br><span class="line">    <span class="type">unsigned</span> txcolor: <span class="number">4</span>;<span class="comment">/*txcolor占用高字节的0~3位共4位*/</span> </span><br><span class="line">    <span class="type">unsigned</span> bgcolor: <span class="number">3</span>;<span class="comment">/*bgcolor占用高字节的4~6位共3位*/</span> </span><br><span class="line">    <span class="type">unsigned</span> blink: <span class="number">1</span>;  <span class="comment">/*blink占用高字节的第7位*/</span></span><br><span class="line"> &#125;ch;</span><br></pre></td></tr></table></figure>
-<p>位结构成员的访问与结构体成员的访问相同，访问位结构中的bgcolor成员可写成：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ch.bgcolor</span><br></pre></td></tr></table></figure>
-<p>举个例子</p>
-<p><img data-src="/images%5C%E7%BB%93%E6%9E%84%E4%BD%93.png" alt="例图"></p>
-<h2 id="typedef定义结构体">typedef定义结构体</h2>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>  <span class="title">person</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="type">int</span> age ;</span><br><span class="line">    <span class="type">char</span> *name;</span><br><span class="line">    <span class="type">char</span> *sex;</span><br><span class="line">&#125;student;</span><br><span class="line"></span><br><span class="line">student stu1; <span class="comment">//此处可以用student来定义一个结构体变量</span></span><br></pre></td></tr></table></figure>
-<p>typedef的作用就相当于给struct person取了一个别名student。</p>
-
+          查看本文需要输入密码
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/05/30/The%20use%20of%20structs%20in%20the%20C%20language/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -440,7 +615,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://blog.xxx.xx/2022/05/29/My_HexoBlog_with_Next(2)/">
+    <link itemprop="mainEntityOfPage" href="http://blog.xxx.xx/2022/05/29/null/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/hexoblog.gif">
@@ -454,7 +629,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2022/05/29/My_HexoBlog_with_Next(2)/" class="post-title-link" itemprop="url">你好，我的博客世界!!!</a>
+            <a href="/2022/05/29/null/" class="post-title-link" itemprop="url">我的博客创建!!!</a>
         </h2>
 
         <div class="post-meta">
@@ -492,8 +667,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2022/05/29/My_HexoBlog_with_Next(2)/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2022/05/29/My_HexoBlog_with_Next(2)/" itemprop="commentCount"></span>
+    <a title="valine" href="/2022/05/29/null/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/05/29/null/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -503,7 +678,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>435</span>
+              <span>441</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -522,10 +697,10 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          密码
+          查看本文需要输入密码
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2022/05/29/My_HexoBlog_with_Next(2)/#more" rel="contents">
+              <a class="btn" href="/2022/05/29/null/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -613,7 +788,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -626,7 +801,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -636,13 +811,13 @@
         <a href="https://blog.imql.life/" title="blog → https:&#x2F;&#x2F;blog.imql.life" rel="noopener" target="_blank"><i class="fas fa-blog fa-fw"></i>blog</a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://imql.life/" title="www → https:&#x2F;&#x2F;imql.life" rel="noopener" target="_blank"><i class="fa-brands fa-internet-explorer fa-fw"></i>www</a>
+        <a href="https://imql.life/" title="www → https:&#x2F;&#x2F;imql.life" rel="noopener" target="_blank"><i class="fab fa-internet-explorer fa-fw"></i>www</a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://nav.imql.life/" title="nav → https:&#x2F;&#x2F;nav.imql.life" rel="noopener" target="_blank"><i class="fa-regular fa-planet-ringed fa-fw"></i>nav</a>
+        <a href="https://nav.imql.life/" title="nav → https:&#x2F;&#x2F;nav.imql.life" rel="noopener" target="_blank"><i class="fas fa-bars fa-fw"></i>nav</a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://space.imql.life/" title="space → https:&#x2F;&#x2F;space.imql.life" rel="noopener" target="_blank"><i class="fa-solid fa-planet-ringed fa-fw"></i>space</a>
+        <a href="https://space.imql.life/" title="space → https:&#x2F;&#x2F;space.imql.life" rel="noopener" target="_blank"><i class="fas fa-space-shuttle fa-fw"></i>space</a>
       </span>
       <span class="links-of-author-item">
         <a href="https://github.com/gwyghy-isaac" title="Github → https:&#x2F;&#x2F;github.com&#x2F;gwyghy-isaac" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>Github</a>
@@ -658,12 +833,6 @@
       Links
     </div>
     <ul class="links-of-blogroll-list">
-        <li class="links-of-blogroll-item">
-          <a href="https://blog.imql.life/" title="https:&#x2F;&#x2F;blog.imql.life&#x2F;" rel="noopener" target="_blank">ql's blog</a>
-        </li>
-        <li class="links-of-blogroll-item">
-          <a href="https://nav.imql.life/" title="https:&#x2F;&#x2F;nav.imql.life&#x2F;" rel="noopener" target="_blank">ql's nav</a>
-        </li>
         <li class="links-of-blogroll-item">
           <a href="https://zh.wikipedia.org/" title="https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;" rel="noopener" target="_blank">维基百科</a>
         </li>
@@ -705,13 +874,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">3k</span>
+    <span title="站点总字数">24k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">3 分钟</span>
+    <span title="站点阅读时长">22 分钟</span>
 </div>
 <!--
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
@@ -752,9 +921,9 @@
   </div>
 
   
-  <script src="/lib/anime.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//fastly.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
