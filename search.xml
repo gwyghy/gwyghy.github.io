@@ -110,4 +110,26 @@
         <tag>生活</tag>
       </tags>
   </entry>
+  <entry>
+    <title>C语言队列一</title>
+    <url>/2022/09/16/The%20use%20of%20structs%20in%20the%20C%20language/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码不对，请再试试！" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="7d8b504192cc3f6474aea981707e9cdeb410c58aa9de6f257b6314aaf793c2ec">268e3d99bacc59ca426f7be859149b4f4d86433f22d9a7901dd3d1beaaf6fdace60a64a8133c85ca1887bf11e35954559e09dd148eae32fac686995ac8f0bdfec1765f25267670fd2d9e8c01642b5d62f4e0516da149fbe645cb8018b547e529b387e3f7d0a37262f8ecec80bd26d95a0541e7ed70b8357a07d38c600fd45fba1f5845a928254cefc8b07c0ae9a0880bdc2a56781025b0fa24095923b2743d80440af2cc6a7f77d46cce721cd4605358544cd7aafb7f44180ac85c4b4f21c95e9075d8624ed81632ac29847254fe32b7a1eb5fec921c42330804c73f7cdc6b0045eebebad5647aeafea19372cae74c50acd63e79fe31ceb9dadff601cc2d79bd1c50113c231924b749bfc4ac25e0ed0d4c6fb0ab9bcfc3608d52d8a19c6e369c7c97bc2452a0bb8c6194a91b75f23b0b0e253d0311c84ccdef909feadeda556d68a828af4975de0d28ae84ba9ab0009a268dbee9de4ba632e4d213632033baaece910c75049f14f2da4e0b4963fdf476543c82ad4fe71af133ef85a0fd191671455e35a4683a7d661e1f61c632b0e91bc02bdc1d008c6754c00221d2e9c1222a29557f99a88516b23d5698699ceee3f183bee3d05eed158948bed41ffdd36b7037031b0dfc7d0eb22ec941752d4ffc4bb0ff7be079fe0a27e20597044f1ed5c8d1d1fd1a524764b1539169adbf8d4b90f80906c7351c47cdd186f4018f8d12e03a930958c164ea1f9c328f7293308bb2bd95d30dee41d8145bb9c235f546e5bef64935c6508f134598d3e0e8fc6907776e2c06e19d6f4ec9caadae426eda18738b556922212f89ca7581e45481cd8f2951fdb45e10684d02f4e0b1ac9a3b616f0415f3e0f86adf61c5e7c9d551b502301977b3b172e658d4ab48ac7e15fd99b6</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>C语言基础知识</category>
+      </categories>
+      <tags>
+        <tag>队列</tag>
+      </tags>
+  </entry>
 </search>
